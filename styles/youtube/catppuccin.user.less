@@ -399,6 +399,14 @@
       background: @accent;
     }
 
+    /* make watch next list have big thumbnails always*/
+    .ytLockupViewModelContentImage {
+      width: 100%;
+    }
+    .ytLockupViewModelHorizontal {
+      flex-direction: column;
+    }
+
     /* Selected chapter */
     ytd-macro-markers-list-item-renderer {
       --ytd-macro-markers-list-item-background-color: @surface0;
@@ -1571,12 +1579,6 @@
       background-color: @text;
     }
 
-    /* make watch next list have big thumbnails always*/
-    .ytLockupViewModelContentImage {
-      width: 100%;
-    }
-    .ytLockupViewModelHorizontal {
-      flex-direction: column;
-    }
   }
 }
+
